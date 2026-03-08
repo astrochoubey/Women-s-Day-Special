@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 noteImage.src = "Archive./A..png";
                 noteImage.style.display = "block";
                 noteMessage.textContent = "Thank you for teaching me what it is to be brave and strong-willed. I would be lucky if I ever became half the amazing woman you are. Happy Women's Day!!";
-            } else if (lowerName === 'mitthi' || lowerName === 'akshita' || lowerName === 'shweta') {
+            } else if (lowerName === 'mitthi' || lowerName === 'akshita' || lowerName === 'shweta' || lowerName === 'pihu' || lowerName === 'aarna' || lowerName === 'arna') {
                 noteGreeting.textContent = `Dear ${upperName},`;
                 noteImage.src = "Archive./B..png";
                 noteImage.style.display = "block";
