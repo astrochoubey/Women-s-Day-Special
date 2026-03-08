@@ -399,3 +399,92 @@ button:hover {
         opacity: 0;
     }
 }
+
+/* ------------------------------------- */
+/* Mobile & Tablet Responsiveness */
+/* ------------------------------------- */
+@media (max-width: 850px) {
+    /* Landing Page */
+    .content {
+        padding: 2rem 1.5rem;
+    }
+
+    .content h1 {
+        font-size: 3.2rem;
+    }
+
+    .content p {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+    }
+
+    /* Scaling the complex folder drawing to fit safely on smaller screens */
+    .folder-container {
+        transform: scale(0.6) !important;
+        margin-top: -50px;
+    }
+
+    .folder-container:hover {
+        transform: scale(0.65) !important;
+    }
+
+    /* Message Page */
+    .note-image {
+        max-height: 45vh; /* Keep the image proportional but prevent it from taking the whole mobile screen */
+    }
+
+    .thoughtful-note {
+        width: 85%;
+        padding: 1.5rem;
+        margin-top: -15px;
+    }
+
+    .thoughtful-note p {
+        font-size: 1.5rem;
+    }
+
+    #note-greeting {
+        font-size: 1.7rem;
+    }
+
+    #note-signature {
+        font-size: 1.8rem;
+    }
+
+    .footer {
+        font-size: 1.4rem;
+        bottom: 10px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 450px) {
+    /* Phones specifically */
+    .content h1 {
+        font-size: 2.5rem;
+    }
+
+    .folder-container {
+        transform: scale(0.45) !important;
+    }
+
+    .folder-container:hover {
+        transform: scale(0.48) !important;
+    }
+    
+    .note-image {
+        max-height: 35vh;
+    }
+    
+    .thoughtful-note {
+        width: 90%;
+        padding: 1.2rem;
+    }
+
+    .curated-text {
+        font-size: 0.55rem;
+        width: 130px;
+        right: 10px;
+        top: 10px;
+    }
+}
