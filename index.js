@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 noteGreeting.textContent = `Dear ${upperName},`;
                 noteImage.src = "Archive./C..png";
                 noteImage.style.display = "block";
-                noteMessage.textContent = "Thank you for being such a good role model for me. Your strength inspires me every day. Happy Women's Day!";
+                noteMessage.textContent = "Thank you for teaching me how to be a woman. Your strength inspires me every day. Happy Women's Day!";
             }
         } else {
             // Default generic fallback if they bypassed the form page somehow
