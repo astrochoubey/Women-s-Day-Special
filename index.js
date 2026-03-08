@@ -64,12 +64,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 noteImage.style.display = "block";
                 noteMessage.textContent = "Thank you for teaching me what it is to be brave and strong-willed. I would be lucky if I ever became half the amazing woman you are. Happy Women's Day!!";
             } else if (lowerName === 'mitthi' || lowerName === 'akshita' || lowerName === 'shweta' || lowerName === 'pihu' || lowerName === 'aarna' || lowerName === 'arna') {
-                noteGreeting.textContent = `Dear ${upperName},`;
+                if (lowerName === 'shweta') {
+                    noteGreeting.textContent = "Dear Di,";
+                } else if (lowerName === 'akshita' || lowerName === 'mitthi') {
+                    noteGreeting.textContent = "Dear Mitthi,";
+                } else {
+                    noteGreeting.textContent = `Dear ${upperName},`;
+                }
                 noteImage.src = "Archive./B..png";
                 noteImage.style.display = "block";
                 noteMessage.textContent = "I'm so incredibly happy and proud to have you as my sister. Thank you for always being there. Happy Women's Day!";
             } else {
-                noteGreeting.textContent = `Dear ${upperName},`;
+                if (lowerName === 'bandana') {
+                    noteGreeting.textContent = "Dear Ruby Aunty,";
+                } else if (lowerName === 'priya') {
+                    noteGreeting.textContent = "Dear Chhoti Mummy,";
+                } else if (lowerName === 'anjali') {
+                    noteGreeting.textContent = "Dear Masi Maa,";
+                } else {
+                    noteGreeting.textContent = `Dear ${upperName},`;
+                }
                 noteImage.src = "Archive./C..png";
                 noteImage.style.display = "block";
                 noteMessage.textContent = "Thank you for teaching me how to be a woman. Your strength inspires me every day. Happy Women's Day!";
